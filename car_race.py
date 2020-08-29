@@ -135,8 +135,6 @@ class Car:
                 if event.type == pygame.QUIT:
                     self.running = False
                     sys.exit()
-                if self.gameover:
-                    print("hello")
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_LEFT:
                         self.carX_change = -8
